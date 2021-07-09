@@ -145,3 +145,80 @@ body{
     left: 50%;
 }
 
+ @media(max-width:375px){
+
+
+    html{
+        font-size: 60%;
+    }
+    .main-content{
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+       
+    }
+    .col-1-2{
+        width: 100%;
+        margin-bottom: 20rem;
+    }
+
+.btn-area{
+    display:flex;
+    position: absolute;
+    right: 20px;
+}
+.hero-text .btn{
+   
+    border: 1px solid ;
+    border-radius: 2rem;
+    line-height: 50px;
+    
+    
+}
+
+    .code-js{
+        color: green;
+        position: relative;
+        top: 0px;
+        left:-20%;
+    }
+
+    
+ }
+
+ @media(max-width:768px){
+
+
+    html{
+        font-size: 60%;
+    }
+    .main-content{
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+       
+    }
+    .col-1-2{
+        width: 100%;
+        margin-bottom: 20rem;
+    }
+
+
+.hero-text .btn{
+   
+    border: 1px solid ;
+    border-radius: 2rem;
+    line-height: 50px;
+    
+    
+}
+
+    .code-js{
+        color: green;
+        position: relative;
+        top: 0px;
+        left:-20%;
+    }
+
+    
+ }
