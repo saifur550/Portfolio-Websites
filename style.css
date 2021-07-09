@@ -1,0 +1,147 @@
+*{padding:0;margin:0}a{text-transform:capitalize;text-decoration:none}body{font-family:'Source Sans Pro',sans-serif;background-color:rgb(0, 0, 0);font-size:1.5rem;color:#000}.container{max-width:85%;margin:0 auto}
+
+
+body{
+   color: #fff;
+}
+
+
+.main-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+.col-1-2{
+    width: 50%;
+}
+
+.top-area{
+    position: relative;
+}
+
+
+.line::after{
+    position: absolute;
+    content: "";
+    width: 100px;
+    height: 5px;
+    background-color: #F7FD04;
+    left: 35%;
+    top: 20px;
+    border-radius: 10px;
+    
+}
+
+.circle::after{
+    position: absolute;
+    content: "";
+    width: 5px;
+    height: 5px;
+    background-color: #F7FD04;
+    left: 42%;
+    top: 20px;
+    border-radius: 10px;
+    
+}
+
+.clr{
+ color: #F7FD04;
+}
+
+
+.user-profile{
+    position: relative;
+}
+
+.user-profile::after{
+    position: absolute;
+    content: " ";
+    background-color: #F7FD04;
+    width: 50%;
+    height: 100%;
+    left: 20%;
+    top: 0%;
+    z-index: -1;
+
+}
+
+
+/* .user-profile::before{
+    position: absolute;
+    content: " ";
+    background-color: #ffffff;
+    width: 50%;
+    height: 100%;
+    left: 30%;
+    top: -3%;
+    z-index: -1;
+    transform: rotate(-140deg);
+    border-top-left-radius: 120px;
+    border-top-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+
+} */
+
+
+.user-profile img{
+    width: 100%;
+    vertical-align: middle;
+}
+
+
+.hero-text{
+    position: relative;
+    left: 10%;
+    top: 100px;
+}
+
+.hero-text h2{
+    font-size: 4rem;
+    font-weight: bold;
+    line-height: 56px;
+}
+
+.name3{
+    margin-bottom: 2rem;
+}
+
+.hero-text .btn{
+    display: inline-block;
+    border: 1px solid ;
+    border-radius: 2rem;
+    width: 150px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    
+}
+
+.btn-hire{
+    background: #F7FD04;
+    color: #000;
+}
+
+
+
+
+.work{
+    margin-left: 2rem;
+    color: #fff;
+   
+}
+
+
+.code-js span{
+    color: purple;
+}
+
+
+.code-js{
+    color: green;
+    position: relative;
+    top: 50px;
+    left: 50%;
+}
+
